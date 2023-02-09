@@ -168,7 +168,7 @@ img {
 }
 
 .header {
-  width: 100%;  
+  width: 100vw;  
   position: fixed;
   bottom: 0;
   left: 0;
@@ -178,7 +178,7 @@ img {
 
 /*==================== NAV ====================*/
 .nav{
-  max-width: 320px;
+  max-width: 968px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
