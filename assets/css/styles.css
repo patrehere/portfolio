@@ -966,7 +966,7 @@ img {
 /*========== SCROLL UP ==========*/
 .scroll_up{
   position: fixed;
-  left: 17rem;
+  left: 18rem;
   bottom: -20%;
   background-color: var(--first-color);
   opacity: .8;
