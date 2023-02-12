@@ -144,7 +144,7 @@ window.addEventListener("scroll", scrollActive);
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader(){
   const nav = document.getElementById('header')
-  if(this.scrollY >= 80) {
+  if(this.scrollY >= 1) {
     nav.classList.add('scroll-header')
   } else {
     nav.classList.remove('scroll-header')
@@ -157,7 +157,7 @@ window.addEventListener('scroll', scrollHeader)
 /*==================== SHOW SCROLL UP ====================*/
 function scrollUp() {
   const scrollUp = document.getElementById('scroll-up')
-  if(this.scrollY >=560) {
+  if(this.scrollY >= 1200) {
     scrollUp.classList.add('show-scroll')
   } else {
     scrollUp.classList.remove('show-scroll')
@@ -177,13 +177,13 @@ const selectedIcon = localStorage.getItem('selected-icon')
 
 // We obtain the current theme that the interface has by validating the dark-theme
 
-const getCurrentTheme = () => document.body.classList.contains(darktheme)? 'dark' : 'light';
-const getCurrentIcon = () => themeButton.classList.contains(icontheme) ? 'uil-moon' : 'uil-sun';
+const getCurrentTheme = () => document.body.classList.contains(darkTheme)? 'dark' : 'light';
+const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun';
 
 // We validate if the user previously chose a topic
 if(selectedTheme){
   //If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark theme
-  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darktheme)
+  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
   themeButton.classList[selectedIcon === 'uil -moon' ? 'add' : 'remove'](iconTheme)
 }
 
