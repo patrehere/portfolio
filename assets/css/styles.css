@@ -217,7 +217,7 @@ img {
     position: fixed;
     bottom: -100%;
     left: 0;
-    width: 100;
+    width: 100vw;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1vwpx 4px rgba(0, 0, 0, 0.15);
