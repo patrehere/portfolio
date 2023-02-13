@@ -1012,6 +1012,9 @@ img {
     column-gap: 30%;
     justify-content: space-around;
   }
+  .nav_menu {
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 360px) {
