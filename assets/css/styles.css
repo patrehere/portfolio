@@ -187,7 +187,8 @@ img {
   max-width: 968px;
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  column-gap:50%;
   align-items: center;
 }
 
