@@ -1077,6 +1077,9 @@ img {
   column-gap:60%;
   justify-content: space-around;
   }
+  .nav_menu{
+    width: 100vw;
+  }
 
   .home_content {
     grid-template-columns: max-content 1fr 1fr;
