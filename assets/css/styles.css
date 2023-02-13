@@ -185,6 +185,7 @@ img {
 /*==================== NAV ====================*/
 .nav {
   max-width: 968px;
+  width: 100%
   height: var(--header-height);
   display: flex;
   justify-content: space-around;
