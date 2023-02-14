@@ -184,13 +184,11 @@ img {
 
 /*==================== NAV ====================*/
 .nav {
-  width: 100vw;
-  
+  width: 100%;
   height: var(--header-height);
   display: flex;
-  column-gap:40%;
+  column-gap:55%;
   align-items: center;
-  justify-content: space-between;
 }
 
 .nav_logo,
