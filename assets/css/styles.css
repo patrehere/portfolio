@@ -960,10 +960,7 @@ img {
   color: #fff;
 }
 
-.footer_container > .container,
-.nav > .container {
-   max-width: 100vw;
-}
+
 
 /*========== SCROLL UP ==========*/
 .scroll_up {
@@ -1013,21 +1010,14 @@ img {
 /* For small devices */
 
 @media screen and (max-width: 567px){
-  .nav{
-    column-gap: 30%;
-    justify-content: space-around;
-  }
+
   .nav_menu {
     width: 100vw;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .nav{
-    column-gap: 30%;
-    justify-content: space-around;
-  }
-
+  
   .nav_menu {
     width: 100vw;
     padding: 2rem 0.25rem 4rem;
@@ -1078,13 +1068,6 @@ img {
 /* For medium devices */
 
 @media screen and (min-width: 568px) {
-  .nav{
-  column-gap:60%;
-  justify-content: space-around;
-  }
-  .nav_menu{
-    width: 100vw;
-  }
 
   .home_content {
     grid-template-columns: max-content 1fr 1fr;
