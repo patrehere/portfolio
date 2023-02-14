@@ -184,11 +184,12 @@ img {
 
 /*==================== NAV ====================*/
 .nav {
-  width: 100%;
+  width: 100%; 
   height: var(--header-height);
   display: flex;
-  column-gap:55%;
   align-items: center;
+  column-gap: 55%;
+  /* justify-content: space-around; */
 }
 
 .nav_logo,
@@ -909,6 +910,7 @@ img {
 
 .footer_container {
   row-gap: 3.5rem;
+  /* justify-content: center; */
 }
 
 .footer_bg {
@@ -1007,17 +1009,11 @@ img {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 
-@media screen and (max-width: 567px){
-
-  .nav_menu {
-    width: 100vw;
-  }
-}
 
 @media screen and (max-width: 360px) {
   
   .nav_menu {
-    width: 100vw;
+    /* width: 100vw; */
     padding: 2rem 0.25rem 4rem;
   }
 
